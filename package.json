@@ -2,6 +2,8 @@
   "name": "html",
   "version": "1.0.0",
   "main": "index.js",
+  "gitRepo": "https://github.com/MarkonioHub/modesto-flowers.git",
+  "githubUrl": "https://github.com/MarkonioHub/modesto-flowers",
   "license": "MIT",
   "scripts": {
     "dev": "gulp",

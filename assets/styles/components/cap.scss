@@ -1,5 +1,4 @@
 .cap {
-  margin-top: -126px;
   background-color: $white;
   padding-bottom: 293px;
   padding-top: 292px;
@@ -14,9 +13,15 @@
   @media (max-width: 767px) {
     padding-top: 152px;
     padding-bottom: 152px;
-    margin-top: -58px;
     @include bgImg('cap_3.png');
     background-position: top 35px left -69px;
+  }
+}
+
+.cap_index {
+  margin-top: -126px;
+  @media (max-width: 767px) {
+    margin-top: -58px;
   }
 }
 

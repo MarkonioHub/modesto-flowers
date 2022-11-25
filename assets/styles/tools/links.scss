@@ -1,0 +1,7 @@
+.link-orange {
+  text-decoration: none;
+  transition: .2s color;
+  &:hover {
+    color: $brown;
+  }
+}

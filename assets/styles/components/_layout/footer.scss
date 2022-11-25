@@ -1,0 +1,148 @@
+.footer {
+  background-color: $black;
+  color: $white;
+  padding: 80px 0;
+  @media (max-width: 950px) {
+    padding: 34px 0;
+  }
+  @media (max-width: 767px) {
+    padding: 31px 0;
+  }
+}
+
+.footer__cont {
+  @media (max-width: 950px) {
+    max-width: 760px;
+  }
+}
+
+.footer__area {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 1366px) {
+    flex-wrap: wrap;
+  }
+}
+
+.footer__box {
+
+}
+
+.footer__box_2 {
+  @media (max-width: 1366px) {
+    order: 1;
+    width: 100%;
+    margin-top: 48px;
+  }
+  @media (max-width: 767px) {
+    order: 0;
+    margin-bottom: 48px;
+  }
+}
+
+.footer__headline {
+  margin-bottom: 24px;
+}
+
+.footer__address-list {
+  display: flex;
+  @media (max-width: 1366px) {
+    flex-direction: column;
+  }
+}
+
+.footer__address-item {
+  max-width: 275px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  &:not(:last-of-type) {
+    margin-right: 40px;
+    @media (max-width: 1366px) {
+      margin-right: 0;
+      margin-bottom: 16px;
+    }
+  }
+}
+
+.footer__address-link {
+
+}
+
+.footer__social-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer__social-link {
+  &:not(:last-of-type) {
+    margin-bottom: 16px;
+  }
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer__phone {
+  margin-bottom: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.footer__mail {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.footer__send {
+  position: relative;
+  padding: 14px 66px 14px 32px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  @media (max-width: 1366px) {
+    padding: 15px 104px 15px 70px;
+  }
+  @media (max-width: 767px) {
+    padding: 14px 66px 14px 32px;
+  }
+
+  &::before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 12px;
+    right: 32px;
+    @include bgIcon('ic_send_black.svg');
+    @media (max-width: 1366px) {
+      right: 70px;
+    }
+    @media (max-width: 767px) {
+      right: 32px;
+    }
+  }
+}
+
+.footer__copyright {
+  display: none;
+  @media (max-width: 950px) {
+    display: block;
+    margin-top: 48px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #B9B3B3;
+  }
+}

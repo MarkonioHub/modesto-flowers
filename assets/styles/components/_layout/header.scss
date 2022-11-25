@@ -1,0 +1,144 @@
+.header {
+
+}
+
+.header__cont {
+
+}
+
+.header__area {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  @media (max-width: 767px) {
+    padding: 8px 0;
+  }
+}
+
+.header__logo {
+  margin-right: 213px;
+  @media (max-width: 1366px) {
+    margin-right: 118px;
+  }
+  @media (max-width: 767px) {
+    margin-right: 5px;
+  }
+}
+
+.header__logo-image {
+  width: 98px;
+  height: 86px;
+  @media (max-width: 767px) {
+    width: 48px;
+    height: 42px;
+  }
+}
+
+.header__menu {
+  display: flex;
+  @media (max-width: 1366px) {
+    display: none;
+  }
+}
+
+.header__menu-item {
+
+}
+
+.header__menu-link {
+  padding: 14px 21px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.header__phone {
+  margin-left: auto;
+  padding: 16px 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+  @media (max-width: 767px) {
+    padding: 8px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+.header__sign-in {
+  margin-left: 20px;
+  padding: 14px 30px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.header__sign-up {
+  margin-left: 10px;
+  padding: 14px 30px;
+  font-weight: 500;
+  border: 1px solid #000000;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 21px;
+  transition-duration: .2s;
+  transition-property: color, border;
+  &:hover {
+    color: $brown;
+    border: 1px solid $brown;
+  }
+  @media (max-width: 1366px) {
+    display: none;
+  }
+}
+
+.header__language-list {
+  display: none;
+  @media (max-width: 1366px) {
+    display: flex;
+    margin-left: 20px;
+    padding: 0 4px;
+  }
+  @media (max-width: 767px) {
+    margin-left: 11px;
+  }
+}
+
+.header__language-link {
+  padding: 8px 4px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #9B9B99;
+  @media (max-width: 767px) {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+.header__language-link_active {
+  color: $black;
+}
+
+.header__burger {
+  display: none;
+  @media (max-width: 1366px) {
+    display: block;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  @media (max-width: 767px) {
+    margin-left: 11px;
+    width: 30px;
+    height: 30px;
+  }
+}

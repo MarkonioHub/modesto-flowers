@@ -1,0 +1,19 @@
+$black: #372E11;
+$white: #FFFBED;
+$yellow: #ffe182;
+$grey: #ededed;
+$brown: #8E825C;
+
+$imgPath: '../img/';
+
+@mixin bgImg($img) {
+  background-image: url($imgPath + $img);
+  background-repeat: no-repeat;
+}
+
+@mixin bgIcon($img, $w: 100%, $h: 100%) {
+  background-image: url($imgPath + $img);
+  background-size: $w $h;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

@@ -1,0 +1,84 @@
+.cap {
+  margin-top: -126px;
+  background-color: $white;
+  padding-bottom: 293px;
+  padding-top: 292px;
+  @include bgImg('cap_1.png');
+  background-position: top -62px left -628px;
+  @media (max-width: 950px) {
+    padding-top: 186px;
+    padding-bottom: 207px;
+    @include bgImg('cap_2.png');
+    background-position: top 77px left -130px;
+  }
+  @media (max-width: 767px) {
+    padding-top: 152px;
+    padding-bottom: 152px;
+    margin-top: -58px;
+    @include bgImg('cap_3.png');
+    background-position: top 35px left -69px;
+  }
+}
+
+.cap__cont {
+
+}
+
+.cap__area {
+  max-width: 887px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cap__caption {
+  margin-bottom: 40px;
+  @media (max-width: 767px) {
+    margin-bottom: 24px;
+  }
+}
+
+.cap__text {
+  max-width: 700px;
+  margin: 0 auto 57px;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 31px;
+  @media (max-width: 767px) {
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+.cap__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 -10px;
+  @media (max-width: 767px) {
+    margin: 0 -4px;
+  }
+}
+
+.cap__button {
+  margin: 0 10px;
+  font-size: 18px;
+  line-height: 21px;
+  @media (max-width: 767px) {
+    margin: 0 4px;
+  }
+}
+
+.cap__button_yellow {
+  padding: 22px 34px;
+  @media (max-width: 767px) {
+    padding: 12px 13px;
+  }
+}
+
+.cap__button_grey {
+  padding: 24px 42px;
+  @media (max-width: 767px) {
+    padding: 12px 7px;
+  }
+}
